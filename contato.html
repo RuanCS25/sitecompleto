@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/INOVADESK.ico" type="image/x-icon">
+    <title>INOVADESK</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>INOVADESK</h1>
+            <p>Uma empresa de consultoria em transformação digital para pequenas e médias empresas (PMEs).</p>
+            <p><a href="index.html">Inicio</a> <a href="servico.html">Serviço</a> <a href="quiz.html">Quiz</a></p>
+        </nav>
+    </header>
+
+    <section id="contato">
+        <h2>Contato da Empresa</h2>
+        <p>Telefone: (83) 97573-2732</p>
+        <p>Endereço: Rua Pref. Domingos Antônio Fortunato Jardim Maria Luiza N° 143</p>
+    </section>
+
+        <div id="formulario"></div>
+            <form id="eventForm" action="https://formsubmit.co/ruancampossilva2008@gmail.com" method="POST">
+                <fieldset>
+                    <legend>Envie sua Mensagem</legend>
+
+                    <label id="labelCon" for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    
+                    <label id="labelCon" for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+                    <label id="labelCon" for="mensagem">Mensagem:</label>
+                    <textarea id="msg" name="mensagem" rows="5" cols="50"></textarea>
+
+                    <button type="submit" id="enviarBtn">Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
